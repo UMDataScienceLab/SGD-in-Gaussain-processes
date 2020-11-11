@@ -60,7 +60,7 @@ where $\boldsymbol{\theta}=(\sigma_{f}^2,\sigma_{\epsilon}^2)^\top\in\mathbb{R}^
 \|\nabla \ell(\boldsymbol{\theta}^{(K)})\|_2^2\leq C\left[\frac{G^2}{{K+1}}+{m^{-\frac{1}{2}+\varepsilon}}\right].
 \end{aligned}$$ -->
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{aligned}&space;\|\nabla&space;\ell(\boldsymbol{\theta}^{(K)})\|_2^2\leq&space;C\left[\frac{G^2}
+<a href="https://www.codecogs.com/eqnedit.php?latex=\begin{aligned}&space;\|\nabla&space;\ell(\boldsymbol{\theta}^{(K)})\|_2^2\leq&space;C\left[\frac{G^2}{{K&plus;1}}&plus;{m^{-\frac{1}{2}&plus;\varepsilon}}\right].&space;\end{aligned}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\begin{aligned}&space;\|\nabla&space;\ell(\boldsymbol{\theta}^{(K)})\|_2^2\leq&space;C\left[\frac{G^2}{{K&plus;1}}&plus;{m^{-\frac{1}{2}&plus;\varepsilon}}\right].&space;\end{aligned}" title="\begin{aligned} \|\nabla \ell(\boldsymbol{\theta}^{(K)})\|_2^2\leq C\left[\frac{G^2}{{K+1}}+{m^{-\frac{1}{2}+\varepsilon}}\right]. \end{aligned}" /></a>
 
 ## Prerequisite
 
