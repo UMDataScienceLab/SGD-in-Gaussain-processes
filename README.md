@@ -28,9 +28,9 @@ where $\mathbf{x}_i\in \mathcal{X}\subset \mathbb{R}^D$ is the input, $y_i$ is t
 
 ### Loss function
 
-![Loss function](https://github.com/UMDataScienceLab/SGD-in-Gaussain-processes/tree/master/figures/loss.jpg?raw=true)
+![Loss function](https://github.com/UMDataScienceLab/SGD-in-Gaussain-processes/tree/master/figures/loss.png?raw=true)
 
-![Loss function](figures/loss.jpg?raw=true)
+![Loss function](figures/loss.png?raw=true)
 
 <!-- $$\begin{aligned}
     \ell(\boldsymbol{\theta};\mathbf{X}_n, \mathbf{y}_n) & = -\frac{1}{n}\log p(\mathbf{y}_n| \mathbf{X}_n,\boldsymbol{\theta}) \\
