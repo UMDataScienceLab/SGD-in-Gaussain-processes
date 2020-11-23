@@ -28,8 +28,6 @@ where $\mathbf{x}_i\in \mathcal{X}\subset \mathbb{R}^D$ is the input, $y_i$ is t
 
 ### Loss function
 
-![Loss function](https://github.com/UMDataScienceLab/SGD-in-Gaussain-processes/tree/master/figures/loss.png?raw=true)
-
 ![Loss function](figures/loss.png?raw=true)
 
 <!-- $$\begin{aligned}
@@ -43,7 +41,7 @@ and we aim to eistimate the hyperparameters &sigma;<sub>f</sub>^2 and &sigma;<su
 
 Here $\boldsymbol{\theta}=(\sigma_{f}^2,\sigma_{\epsilon}^2)^\top\in\mathbb{R}^{2}$,  $(\mathbf{X}_n, \mathbf{y}_n)=((\mathbf{x}_1^\top,\dotsc,\mathbf{x}_n^\top)^\top,(y_1,\dotsc,y_n)^\top)$, $\mathbf{K}_n(\boldsymbol{\theta})=\theta_1\mathbf{K}_{f,n}+\theta_{2}\mathbf{I}_n\in \mathbb{R}^{n\times n}$ and $\mathbf{K}_{f,n}\in\mathbb{R}^{n\times n}$ is the kernel matrix of $k(\cdot,\cdot)$ evaluated at $\mathbf{X}_n$, i.e. $(\mathbf{K}_{f,n})_{i,j}=k(\mathbf{x}_i,\mathbf{x}_j)$. -->
 
-## Theoreticl Guarantee of Convergence
+## Theoretical Guarantee of Convergence
 
 ### Assumptions
 
@@ -52,6 +50,8 @@ Here $\boldsymbol{\theta}=(\sigma_{f}^2,\sigma_{\epsilon}^2)^\top\in\mathbb{R}^{
 * **Bounded stochastic gradient**. The norm of the stochastic gradient is upper bounded by a constant.
 
 ### Convergence of parameter iterates
+
+![Convergence of parameter iterates](figures/cvg_1.png?raw=true)
 
 <!-- $$\begin{aligned}
     (\theta^{(K)}_{1}-\theta^*_1)^2&\leq  C\left[\frac{G^2}{(K+1)}+{m^{-\frac{1}{2}+\varepsilon}}\right],\\
