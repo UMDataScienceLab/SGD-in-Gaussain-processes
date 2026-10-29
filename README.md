@@ -90,3 +90,28 @@ Here $\boldsymbol{\theta}=(\sigma_{f}^2,\sigma_{\epsilon}^2)^\top\in\mathbb{R}^{
 
 * [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
 * [Virtual Library of Simulation Experiments](https://www.sfu.ca/~ssurjano/)
+
+## Citation
+
+Papers: [JMLR 2022](https://www.jmlr.org/papers/v23/20-1365.html) and [NeurIPS 2020](https://proceedings.neurips.cc/paper/2020/hash/1cb524b5a3f3f82be4a7d954063c07e2-Abstract.html). If you use this code, please cite:
+
+```bibtex
+@article{chen2022gaussian,
+  title={{G}aussian Process Parameter Estimation Using Mini-batch Stochastic Gradient Descent: Convergence Guarantees and Empirical Benefits},
+  author={Chen, Hao and Zheng, Lili and Al Kontar, Raed and Raskutti, Garvesh},
+  journal={Journal of Machine Learning Research},
+  volume={23},
+  number={227},
+  pages={1--59},
+  year={2022}
+}
+
+@inproceedings{chen2020stochastic,
+  title={Stochastic Gradient Descent in Correlated Settings: A Study on {G}aussian Processes},
+  author={Chen, Hao and Zheng, Lili and Al Kontar, Raed and Raskutti, Garvesh},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={2722--2733},
+  year={2020}
+}
+```
